@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#FACEDD"
+        android:gravity="end"
+        android:text="0"
+        android:textColor="#E91E63"
+        android:textSize="36sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FAC3D5"
+        android:columnCount="4"
+        android:foregroundTint="#FACEDD">
+
+        <Button
+            android:id="@+id/button7"
+            android:backgroundTint="#E91E63"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button8"
+            android:backgroundTint="#E91E63"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button9"
+            android:backgroundTint="#E91E63"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:backgroundTint="#E91E63"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/button4"
+            android:backgroundTint="#E91E63"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button5"
+            android:backgroundTint="#E91E63"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button6"
+            android:backgroundTint="#E91E63"
+            android:text="6"
+            app:iconTint="#E91E63" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:backgroundTint="#E91E63"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/button1"
+            android:backgroundTint="#E91E63"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:backgroundTint="#E91E63"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:backgroundTint="#E91E63"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:backgroundTint="#E91E63"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/button0"
+            android:backgroundTint="#E91E63"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:backgroundTint="#E91E63"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/buttonEquals"
+            android:backgroundTint="#E91E63"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:backgroundTint="#E91E63"
+            android:text="+" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Nama : Keira Kayla Aqila. NIM : 225150607111021"
+        android:textAlignment="viewStart"
+        android:textColor="#E91E63"
+        android:textStyle="bold" />
+</LinearLayout>
